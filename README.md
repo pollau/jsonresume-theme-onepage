@@ -4,6 +4,11 @@ A compact theme for JSON Resume, designed for printing.
 
 Tries to fit as much information as possible onto a single page without making sections look cluttered.
 
+## Why this fork?
+
+Needed to create this fork to add the location of the companies I worked for.
+More info: https://github.com/ainsleyc/jsonresume-theme-onepage/pull/12
+
 ## Example
 
 http://themes.jsonresume.org/theme/onepage
