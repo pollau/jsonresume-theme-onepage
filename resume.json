@@ -1,114 +1,213 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
-    "picture": "",
-    "email": "richard.hendricks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "name": "Paul de La Celle",
+    "label": "DevOps Engineer",
+    "image": "",
+    "email": "paul.delacelle@gmail.com",
+    "phone": "(+84)333456461",
+    "url": "",
+    "summary": "5+ years experience in software development. More recently (2 years) into architecting/ automating and optimizing deployment over large infrastructure. Creating and improving tools for development teams to control the lifecycle of their applications",
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US"
+      "address": "Dương Tơ",
+      "postalCode": "70000",
+      "city": "Huyện Phú Quốc, Kien Giang",
+      "countryCode": "VN",
+      "region": "Vietnam"
     },
     "profiles": [
-      {
-        "url": "http://twitter.com/neutralthoughts"
-      },
-      {
-        "url": "https://soundcloud.com/dandymusicnl"
-      }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013",
-      "endDate": "2014",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Mantu",
+      "name": "Mantu",
+      "location": "Ho Chi Minh City, VN",
+      "description": "Consulting company",
+      "position": "DevOps Engineer",
+      "url": "https://www.mantu.com",
+      "startDate": "2019-06-01",
+      "endDate": "",
+      "summary": "",
       "details": [
-        { "text": "Build an algorithm for artist to detect if their music was violating copy right infringement laws", "comment": "Java" },
-        { "text": "Optimized an algorithm that holds the current world record for Weisman Scores", "comment": "c++" },
-        { "text": "Successfully won Techcrunch Disrupt" }
+        { "text": "Develop and maintain CI/CD pipelines, reduce development lifecycle of internal applications from weeks to less than a day", "comment": "Azure DevOps Server" },
+        { "text": "Develop an application to administrate pipelines, endpoints, repository, policies, permissions for development teams", "comment": "Domain Driven Design, C#, ASPNETCORE MVC, JavaScript" },
+        { "text": "Implement Azure DevOps server tasks and extension, allow the teams to export and visualize their application metadata such as database model, authorization scheme or internal dependencies", "comment": "PowerShell, TypeScript" },
+        { "text": "Monitor and report usage of tools by the developers, track usage of DevOps resources by developers", "comment": "DotNet tool" },
+        { "text": "Apply processes and standards for all teams", "comment": "Pull Requests, Code Review, Git Branching Models, Git Branches Policies" },
+        { "text": "Deploy servers with Azure DevOps build agents (self hosted) to run the pipelines", "comment": "Ansible, Azure DevOps Server" }
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012",
-      "endDate": "2013",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
+      "company": "Mantu",
+      "name": "Mantu",
+      "location": "Vienna, AT",
+      "description": "Consulting company",
+      "position": "Software Engineer",
+      "url": "https://www.mantu.com",
+      "startDate": "2017-12-01",
+      "endDate": "2019-06-01",
+      "summary": "",
+      "details": [
+        { "text": "Automate vital provisioning service to create employees, distribution lists, security groups etc. to give employees access to the internal ERP, Outlook, S4B", "comment": "C#, .Net Framework, Active Directory " },
+        { "text": "Redesign of provisioning application using a distributed architecture" , "comment": ".Net Framework Windows Services, Rabbit MQ)" },
+        { "text": "Presentation and control backend configuration through a web application", "comment": "Active Directory, PowerShell, ASPNET MVC" },
+        { "text": "Optimization and rewriting of database queries to allow employees provisioning", "comment": "Transact-SQL, SQL Server" }
+      ]
+    },
+    {
+      "company": "Thales",
+      "name": "Thales",
+      "location": "Cholet, FR",
+      "description": "Leading manufacturer of tactical communications equipment worldwide",
+      "position": "Apprentice software engineer",
+      "url": "https://www.thalesgroup.com/en",
+      "startDate": "2014-09-01",
+      "endDate": "2017-09-01",
+      "summary": "",
+      "details": [
+        { "text": "Backend application to broadcast messages between tactical radios with NACK to optimize data rate", "comment": "C++, NORM protocol (rfc5740)" },
+        { "text": "Android app to demonstrate voice synthesis on the radios", "comment": "Java" },
+        { "text": "Graphical interface to access radio configuration through a computer", "comment": "JavaFX" }
+      ]
+    },
+    {
+      "company": "Wago",
+      "name": "Wago",
+      "location": "Roissy, FR",
+      "description": "",
+      "position": "Apprentice automation developer",
+      "url": "https://www.wago.com",
+      "startDate": "2013-09-01",
+      "endDate": "2014-09-01",
+      "summary": "",
+      "details": [
+        { "text": "Deployment of an automatic lighting network controlled by the ambient light and the presence of personnel", "comment": "DALI, Enocean" },
+        { "text": "Industrial automation development", "comment": "Structured Text, GraphSet" }
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
+      "institution": "IMT Atlantique",
+      "url": "https://www.imt-atlantique.fr",
       "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011",
-      "endDate": "2014",
-      "gpa": "4.0",
+      "studyType": "Master",
+      "startDate": "2014-09-01",
+      "endDate": "2017-09-01",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "Computer Science",
+        "Network",
+        "Telecom"
       ]
-    }
-  ],
-  "awards": [
+    },
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "institution": "University Institute of Technology of Cachan",
+      "url": "https://www.iut-cachan.universite-paris-saclay.fr",
+      "area": "Industrial IT and electronic",
+      "studyType": "Advanced technician",
+      "startDate": "2012-09-01",
+      "endDate": "2014-09-01",
+      "courses": [
+        "Automation",
+        "Electronic",
+        "Electro mechanics"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "details": [
-        { "text": "HTML", "comment": "expert" },
-        { "text": "CSS", "comment": "expert" },
-        { "text": "Javascript", "comment": "expert" }
+      "name": "Software development",
+      "level": "Advanced",
+      "keywords": [
+        ".Net / C#",
+        "ASP NET MVC",
+        "C / C++",
+        "Java",
+        "HTML/CSS",
+        "SQL",
+        "JavaScript/Node",
+        "TypeScript",
+        "PowerShell"
       ]
     },
     {
-      "name": "Compression",
-      "details": [
-        { "text": "Mpeg", "comment": "competent" },
-        { "text": "MP4", "comment": "competent" },
-        { "text": "GIF", "comment": "novice" }
+      "name": "Cloud",
+      "level": "Advanced",
+      "keywords": [
+        "Azure"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Advanced",
+      "keywords": [
+        "SQL Server",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Message broker",
+      "level": "Advanced",
+      "keywords": [
+        "Rabbit MQ"
+      ]
+    },
+    {
+      "name": "Framework, tools",
+      "level": "Advanced",
+      "keywords": [
+        "Scrum",
+        "Visual Studio",
+        "Visual Studio Code",
+        "ASPNET MVC",
+        "Domain Driven Design",
+        "Multitier architecture",
+        "Azure DevOps",
+        "HangFire",
+        "Git",
+        "JQuery",
+        "WebPack"
+      ]
+    },
+    {
+      "name": "Technological watch",
+      "level": "Notions/Learning",
+      "keywords": [
+        "Ansible",
+        "Containers/Docker",
+        "Azure Service Bus",
+        "Azure WebJobs",
+        "IIS ARR (proxy)"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French",
       "fluency": "Native speaker"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Trek",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Hike",
+        "Bicycle (2 months exploration by cycle in Norway, summer 2019)"
+      ]
+    },
+    {
+      "name": "Racket sports"
+    },
+    {
+      "name": "Sensations/Adrenalin hobbies",
+      "keywords": [
+        "Diving",
+        "Motorbike"
       ]
     }
   ]
